@@ -1,0 +1,221 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: black;
+   
+    
+}
+.body {  
+background-image:url('/images/wallpaper.jpg');
+background-repeat:no-repeat;
+background-size: cover;
+
+width: 100%;
+height: 100;
+background-color: black;
+} 
+
+nav{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+      
+}
+
+.logo{
+    width: 30%;
+}
+
+.logo img {
+    height: 70px;
+    width: 50px;
+}
+
+
+
+.titlebar{
+    width: 45%;
+ color:rgb(255, 255, 255);
+ display: flex;
+ align-items: center;
+ justify-content: space-around;
+ font-family:'Stick No Bills', sans-serif; ;
+}
+
+.home, .about-us, .contact-us, .explore {
+    padding: 10px;
+    transition: all 0.5s ease-in-out;   
+}
+
+.home:hover,.about-us:hover, .contact-us:hover, .explore:hover {
+    padding: 10px;
+    border: none;
+    background-color: rgba(9, 214, 241, 0.541);
+       
+}
+.header{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family:'Stick No Bills', sans-serif;
+    font-size: 50px;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    shadow: 0px 2px 20px black;
+}
+.games-folder{
+    display: flex; 
+    flex-direction: row;   
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: auto;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.movie{
+    width: 250px;
+    padding: 2%;
+    text-align: center;
+color: aqua;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+transition: all 0.5s ease-in;
+    
+}
+.game-card{
+  display: flex;
+width: 90%;
+flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.movie img{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.game-sub-details{
+    color:aliceblue;
+}
+.movie:hover{
+    transform: scale(1.1);
+
+}
+.search{
+    display: flex;
+    align-items: center;
+    border:none;
+    
+    
+}
+
+.search-bar{
+    width: 30px;
+    padding: 10px;
+    border-radius: 30px;
+    border: none;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 30px;
+    transition: all 0.5s ease-in-out;
+}
+
+.search-bar:focus{
+    outline: none;
+    background-color: aqua;
+    width: 150px;
+
+}
+
+.fa-solid {
+    z-index: 2;
+    color: rgb(0, 99, 185);
+    background-color: aqua;
+    height: 200px;
+ 
+}
+.btn {
+    display: flex;
+    align-items: center;
+    margin-top:4%;
+}
+
+button{
+    height: 45px;
+    width: 70px;
+    border-radius: 30px;
+    margin: 20px;
+    border-radius: none;
+}
+
+button:hover{
+    height: 45px;
+    width: 70px;
+    border-radius: 30px;
+    margin: 20px;
+    background-color: rgba(0, 255, 255, 0.404);
+}
+footer{
+    
+    height: 50px;
+    background-color: rgb(12, 2, 58);
+    width:100% ;
+    color: aliceblue;
+    font-family:'Stick No Bills', sans-serif; 
+    display: flex;
+    align-items:center ;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    bottom:  0%;
+    margin-top: 10%;
+}
+.overlay{
+    color: aliceblue;
+    display: flex;
+    width: 100%;
+    background-color: rgba(59, 5, 110, 0.384);
+   
+   
+}
+
+.show{
+    display: none;
+}
+.tubnail-vid{
+    width: 60%;
+    margin:20px ;
+}
+video{
+    height: auto;
+    max-width: 100%;
+    border-radius: 0px 50px;
+    
+   
+}
+.text-content-overlay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.game-name-overlay{
+    font-size: 40px;
+    color: aqua;
+}
+.fulltails{
+    
+    overflow: hidden;
+   
+} 
+
+
